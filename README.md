@@ -51,12 +51,12 @@ This project provides machine-checked proofs (in Lean 4) for the theoretical res
 
 Nine foundational results are taken as axioms (not proved from first principles in this formalization):
 
-- `fObj_expansion` — quadratic Taylor identity
-- `minimizer_strong_convexity` — strong-convexity gap bound
+- `fObj_expansion` — quadratic Taylor identity (standard)
+- `minimizer_strong_convexity` — strong-convexity gap bound (standard)
 - `minimizer_is_prox_fixed_point` — minimizer implies proximal fixed point (Beck 2017, Thm 10.16)
 - `rppr_support_volume_bound` — vol(supp(x\*)) ≤ 1/ρ (Fountoulakis et al. 2019, Thm 2)
-- `minimizer_nonneg` — minimizer has nonnegative coordinates
-- `kkt_inactive_upper` — ∇f(x\*)_i ≤ 0 at inactive coordinates
+- `minimizer_nonneg` — minimizer has nonnegative coordinates (Fountoulakis et al. 2019)
+- `kkt_inactive_upper` — ∇f(x\*)_i ≤ 0 at inactive coordinates (Fountoulakis et al. 2019)
 - `fista_convergence_rate` — FISTA convergence rate (Beck & Teboulle 2009)
 - `ista_support_subset_optimal` — ISTA iterates have support contained in optimal support (Fountoulakis 2019, Thm 1)
 - `ista_convergence_rate` — ISTA convergence rate (Beck & Teboulle 2009)
