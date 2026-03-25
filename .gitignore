@@ -1,0 +1,10 @@
+.lake/
+.DS_Store
+.claude/
+*.bak
+*.bak2
+*.bak3
+*.cur
+*.working
+paper.tex
+CLAUDE.md
